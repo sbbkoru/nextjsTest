@@ -7,12 +7,12 @@ import {
   StyledCardText,
 } from "./elements";
 
-export const Card = ({ img, width, header, text, children, ...props }) => {
+export const Card = ({ img, width, header, text, alt, children, ...props }) => {
   return (
     <div>
       <StyledCardItem widthNum={width}>
         <StyledCardImage>
-          <img src={img} />
+          <img src={img} alt={alt} />
         </StyledCardImage>
         <StyledCardDescription>
           <StyledCardHeader>
