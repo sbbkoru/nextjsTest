@@ -13,16 +13,6 @@ import {
 } from "./elements";
 import { Card } from "../../collections/Card/index";
 
-const agencySelectionBoldTexts = [
-  `brief writing or simple guidance`,
-  "criteria matching",
-  "pitch management",
-];
-
-function makeBold(str) {
-  return str.replace(str, "<b>" + str + "</b>");
-}
-
 function agencyselection() {
   return (
     <>
@@ -58,7 +48,7 @@ function agencyselection() {
               img="https://img.icons8.com/external-xnimrodx-lineal-xnimrodx/64/000000/external-architecture-design-tools-xnimrodx-lineal-xnimrodx.png"
             >
               Complete <b>brief writing or simple guidance</b> on what to
-              include, we've got you covered.
+              include, we&apos;ve got you covered.
             </Card>
             <Card
               width="50%"
