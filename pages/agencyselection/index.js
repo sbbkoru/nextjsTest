@@ -9,19 +9,8 @@ import {
   StyledDescription,
   StyledItemContainer,
   StyledItemImage,
-  StyledItemCard,
-} from "./elements";
+} from "../../components/AgencySelection/elements.jsx";
 import { Card } from "../../collections/Card/index";
-
-const agencySelectionBoldTexts = [
-  `brief writing or simple guidance`,
-  "criteria matching",
-  "pitch management",
-];
-
-function makeBold(str) {
-  return str.replace(str, "<b>" + str + "</b>");
-}
 
 function agencyselection() {
   return (
