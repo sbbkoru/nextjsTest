@@ -45,7 +45,7 @@ function agencyselection() {
           <StyledCardList>
             <StyledCardItemClass>
               <Card
-                width="92%"
+                width="86%"
                 header="Brief"
                 img="https://img.icons8.com/external-xnimrodx-lineal-xnimrodx/64/000000/external-architecture-design-tools-xnimrodx-lineal-xnimrodx.png"
               >
@@ -55,7 +55,7 @@ function agencyselection() {
             </StyledCardItemClass>
             <StyledCardItemClass>
               <Card
-                width="94%"
+                width="90%"
                 header="Search"
                 img="https://img.icons8.com/external-parzival-1997-detailed-outline-parzival-1997/64/000000/external-research-seo-and-digital-marketing-parzival-1997-detailed-outline-parzival-1997.png"
               >
@@ -65,7 +65,7 @@ function agencyselection() {
             </StyledCardItemClass>
             <StyledCardItemClass>
               <Card
-                width="96%"
+                width="94%"
                 header="Pitch"
                 img="https://img.icons8.com/external-xnimrodx-lineal-xnimrodx/64/000000/external-meeting-team-management-xnimrodx-lineal-xnimrodx.png"
               >
