@@ -14,10 +14,10 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
       </head>
-      <div>
+      <>
         <Hero {...heroProps} />
         {/** Other sections */}
-      </div>
+      </>
     </>
   );
 }

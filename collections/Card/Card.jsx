@@ -6,13 +6,14 @@ import {
   StyledCardHeader,
   StyledCardText,
 } from "./elements";
+import Image from "next/dist/client/image";
 
 export const Card = ({ img, width, header, text, alt, children, ...props }) => {
   return (
     <div>
       <StyledCardItem widthNum={width}>
         <StyledCardImage>
-          <img src={img} alt={alt} />
+          <img src={img} alt={alt} width={60} />
         </StyledCardImage>
         <StyledCardDescription>
           <StyledCardHeader>

@@ -7,66 +7,51 @@ import {
 import img from "../../resources/background.png";
 
 export const LayoutWrapper = styled(({ ...props }) => <div {...props} />)`
-  background-image: url(${img.src});
-  position: absolute;
-  width: 100%;
-  height: auto;
-  @media (max-width: 40rem) {
+  width: 75%;
+  margin: auto;
+
+  @media (max-width: 60rem) {
     margin: 0.25rem;
+    width: 100%;
   }
 `;
 
-export const StyledContainer = styled(({ height, ...props }) => (
+/* export const StyledContainer = styled(({ height, ...props }) => (
   <SectionContainer {...props} />
 ))`
-  text-align: center;
-  display: block;
-`;
+
+`; */
 
 export const StyledTextContainer = styled(({ ...props }) => <div {...props} />)`
   color: black;
-  width: 100%;
-  margin: auto;
   margin-top: 4.688rem;
   text-align: center;
   font-family: sans-serif;
 `;
 
 export const StyledItemContainer = styled(({ ...props }) => <div {...props} />)`
-  flexbox: flex;
-  color: black;
-  width: 75%;
-  margin: auto;
-  margin-top: 4.688rem;
-  text-align: center;
-  font-family: sans-serif;
+  display: flex;
 
-  @media (max-width: 40rem) {
-    margin: 0.5rem 0.5rem;
+  text-align: center;
+  flex-direction: row;
+  padding: 10px;
+  margin-top: 4rem;
+
+  @media (max-width: 60rem) {
+    flex-direction: column;
   }
 `;
 
 export const StyledItemImage = styled(({ ...props }) => <div {...props} />)`
-  float: left;
-  width: 35%;
-
-  @media (max-width: 60rem) {
-    width: 80%;
-    margin-left: 4rem;
-  }
+  flex: 30%;
+  padding: 20px;
+  margin: auto;
+  width: 55%;
 `;
 
 export const StyledCardList = styled(({ ...props }) => <div {...props} />)`
-  float: left;
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0;
-  padding: 0;
-  width: 60%;
-
-  @media (max-width: 60rem) {
-    width: 100%;
-  }
+  flex: 55%;
+  padding: 20px;
 `;
 
 export const StyledCardItemClass = styled(({ ...props }) => <div {...props} />)`
@@ -74,10 +59,6 @@ export const StyledCardItemClass = styled(({ ...props }) => <div {...props} />)`
 `;
 
 export const StyledItemCard = styled(({ ...props }) => <div {...props} />)`
-  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
   margin-left: 3rem;
